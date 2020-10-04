@@ -1,0 +1,19 @@
+{
+  "files.autoSave": "onFocusChange",
+  "editor.minimap.enabled": false,
+  "editor.wrappingIndent": "indent",
+  "editor.overviewRulerBorder": false,
+  "editor.lineHeight": 24,
+  "workbench.colorTheme": "Gray Matter Light",
+  "vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
+  "[markdown]": {
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": false
+    }
+  },
+  "cSpell.language": "en-GB",
+  "git.enableSmartCommit": true,
+  "git.postCommitCommand": "sync"
+}

@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "outDir": "out",
+    "lib": ["es6"],
+    "sourceMap": true,
+    "strict": false
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", ".vscode-test"],
+  "references": [{
+    "path": "../foam-core"
+  }]
+}
